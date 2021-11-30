@@ -1,0 +1,30 @@
+
+
+.cell {   
+    border: 1px solid #777A77;
+    text-align: center ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4D9A9 ;
+
+}
+
+.gardenGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 3rem);
+  grid-template-rows: repeat(5, 3rem);
+  
+  
+ }
+ .bigCountainer{
+   display: flex;
+   justify-content: center;
+
+ }
+ 
+.title {
+  margin-bottom: 7%;
+  text-align: center;
+}
+
